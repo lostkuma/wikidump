@@ -6,4 +6,4 @@
 ## 
 * code to scrape the data: scrape.py
 * [wikiExtractor](https://github.com/attardi/wikiextractor) was used to clean the raw data
-* data sampling by article ID: sampling.py
+* a simple random stratified sampling by article ID: sampling.py
