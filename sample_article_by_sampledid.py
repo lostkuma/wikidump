@@ -1,3 +1,8 @@
+import argparse
+import numpy as np
+import os
+from bs4 import BeautifulSoup
+
 # get file name inputs
 parser = argparse.ArgumentParser(description="sampled ids file name input")
 parser.add_argument("--sample_ids", type=str, help="pass in the corresponding file with the sampled ids")
